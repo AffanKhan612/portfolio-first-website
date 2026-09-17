@@ -8,3 +8,7 @@ body{
 .backgroundgradient{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(8, 8, 8));
 }
+
+.active-link{
+    color: crimson;
+}

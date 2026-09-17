@@ -6,7 +6,7 @@ const Home = () => {
       <div className='mt-15 p-14 tracking-widest flex flex-col gap-y-6'>
         <div className='flex justify-between text-[15px] text-[#6b6b6b]'>
           <div className=''>
-            — FULL-STACK DEVELOPER & DESIGNER
+            — FULL-STACK DEVELOPER
           </div>
           <div className='relative'>
             <span className='text-[#00ff87] rounded-full mr-2'>●</span>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -20,10 +21,10 @@ const Navbar = () => {
                     MyPortfolio
                 </div>
                 <div className='flex gap-20 text-[#6b6b6b] mt-2'>
-                    <a href="/about">ABOUT</a>
-                    <a href="/skills">SKILLS</a>
-                    <a href="/projects">PROJECTS</a>
-                    <a href="/contact">CONTACT</a>
+                    <NavLink className={(isActive) => isActive ? "active-link" : ""} to="/about">ABOUT</NavLink>
+                    <NavLink className={(isActive) => isActive ? "active-link" : ""} to="/skills">SKILLS</NavLink>
+                    <NavLink className={(isActive) => isActive ? "active-link" : ""} to="/projects">PROJECTS</NavLink>
+                    <NavLink className={(isActive) => isActive ? "active-link" : ""} t="/contact">CONTACT</NavLink>
                 </div>
                 <button className="text-[#00ff87] border-2 border-[#00ff87] py-2 px-4 hover:bg-[#00ff87] hover:text-[#080808]">
                     HIRE ME
