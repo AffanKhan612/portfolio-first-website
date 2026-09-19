@@ -9,7 +9,7 @@ const About = () => {
           <span className='text-[#00ff87] text-sm tracking-wider'>00 — ABOUT</span>
           <div className='mt-5'>
             <div className='relative'>
-              <img className='w-2/3 h-85 object-cover border border-[#6b6b6b]' src="./public/Me.png" alt="" />
+              <img className='w-2/3 h-85 object-cover border border-[#6b6b6b]' src="/Me.png" alt="" />
               <div className='absolute inset-0 backgroundgradient'></div>
             </div>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
           <div className='flex gap-x-4 text-[#6b6b6b] mt-8 tracking-wider text-sm'>
             <a className='underline flex items-center gap-x-2' href="https://github.com/AffanKhan612">GITHUB <MdArrowOutward /></a>
             <a className='underline flex items-center gap-x-2' href="https://www.linkedin.com/in/md-affan-ali-khan-a25749409/">LINKEDIN <MdArrowOutward /></a>
-            <a className='underline flex items-center gap-x-2' href="./public/Resume.html">RESUME <MdArrowOutward /></a>
+            <a className='underline flex items-center gap-x-2' href="/Resume.html">RESUME <MdArrowOutward /></a>
           </div>
         </div>
       </div>

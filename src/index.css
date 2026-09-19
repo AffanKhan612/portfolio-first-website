@@ -12,3 +12,11 @@ body{
 .active-link{
     color: crimson;
 }
+
+.dark{
+    color: darkgreen;
+}
+
+.light{
+    color: lightgreen;
+}

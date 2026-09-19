@@ -17,11 +17,11 @@ const Contacts = () => {
         <div className='w-1/2'>
         <div className='border border-[#2a2a2a] p-4 flex flex-col text-sm'>
           <div>
-            <div className='text-[#2a2a2a]'>YOUR NAME</div> <input className='outline-none' type="text" placeholder='Jane Smith' />
+            <div className='text-[#2a2a2a]'>YOUR NAME</div> <input className='outline-none w-full' type="text" placeholder='Jane Smith' />
           </div>
           <div className='bg-[#2a2a2a] w-full h-px my-4'></div>
           <div>
-            <div className='text-[#2a2a2a]'>EMAIL ADDRESS</div> <input className='outline-none' type="text" placeholder='Jane@example.com' />
+            <div className='text-[#2a2a2a]'>EMAIL ADDRESS</div> <input className='outline-none w-full' type="text" placeholder='Jane@example.com' />
           </div>
           <div className='bg-[#2a2a2a] w-full h-px my-4'></div>
           <div className=''>
