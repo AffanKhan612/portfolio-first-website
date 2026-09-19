@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -25,11 +25,11 @@ const Navbar = () => {
                 <div className='text-[#00ff87] font-bold text-[20px] '>
                     MyPortfolio
                 </div>
-                <div className='flex gap-20 text-[#6b6b6b] mt-2'>
-                    <Link to="/about">ABOUT</Link>
-                     <Link to="/skills">SKILLS</Link>
-                     <Link to="/projects">PROJECTS</Link>
-                     <Link to="/contact">CONTACTS</Link>
+                <div className='flex gap-20  mt-2'>
+                     <NavLink className={({isActive}) => isActive ? "text-blue-600 underline" : "text-[#6b6b6b]"} to="/about">ABOUT</NavLink>
+                     <NavLink className={({isActive}) => isActive ? "text-blue-600 underline" : "text-[#6b6b6b]"} to="/skills">SKILLS</NavLink>
+                     <NavLink className={({isActive}) => isActive ? "text-blue-600 underline" : "text-[#6b6b6b]"} to="/projects">PROJECTS</NavLink>
+                     <NavLink className={({isActive}) => isActive ? "text-blue-600 underline" : "text-[#6b6b6b]"} to="/contact">CONTACTS</NavLink>
                 </div>
                 <button className="text-[#00ff87] border-2 border-[#00ff87] py-2 px-4 hover:bg-[#00ff87] hover:text-[#080808]" onClick={handleClick}>
                     HIRE ME

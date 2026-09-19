@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contacts = () => {
+
+  const [recieve, setrecieve] = useState(false)
+
+  const handleMessageSent = () => {
+    if(recieve == false){
+      setrecieve(true)
+    }
+  }
+  
+
   return (
     <div>
       <div className='p-14 mt-22 flex'>
@@ -15,7 +25,7 @@ const Contacts = () => {
         </div>
         </div>
         <div className='w-1/2'>
-        <div className='border border-[#2a2a2a] p-4 flex flex-col text-sm'>
+        <div className='border border-[#2a2a2a] p-4 flex flex-col text-sm' style={{display: recieve ? "hidden" : "block"}}>
           <div>
             <div className='text-[#2a2a2a]'>YOUR NAME</div> <input className='outline-none w-full' type="text" placeholder='Jane Smith' />
           </div>
@@ -28,7 +38,7 @@ const Contacts = () => {
             <div className='text-[#2a2a2a]'>MESSAGE</div> <textarea rows={5} className='outline-none w-full' type="text" placeholder='Tell me about your project...' />
           </div>
           <div className='bg-[#2a2a2a] w-full h-px my-4'></div>
-          <button className='bg-[#00ff87] p-4 text-black font-semibold'>SEND MESSAGE</button>
+          <button className='bg-[#00ff87] p-4 text-black font-semibold w-full' onClick={handleMessageSent}>SEND MESSAGE</button>
         </div>
         </div>
       </div>
