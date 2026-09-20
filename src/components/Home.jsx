@@ -27,7 +27,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className='mt-15 p-14 tracking-widest flex flex-col gap-y-6'>
+      <div className='md:mt-15 mt-20 p-14 tracking-widest flex flex-col gap-y-6'>
         <div className='flex justify-between text-[15px] text-[#6b6b6b]'>
           <div className=''>
             — FULL-STACK DEVELOPER
@@ -37,15 +37,15 @@ const Home = () => {
             <span>AVAILABLE FOR WORK</span>
           </div>
         </div>
-        <h1 className='text-6xl font-medium flex flex-col gap-y-4'><div className='text-[#00ff87]'>MD</div><div>AFFAN</div><div className='text-[#00ff87]'>ALI</div><div>KHAN</div></h1>
-        <div className='w-1/2 tracking-normal text-lg text-[#6b6b6b]'>I build modern, responsive web applications with a focus on clean design and seamless user experiences. Currently learning and building projects with the MERN stack and modern web technologies.</div>
-        <div className='absolute right-50 bottom-20 flex gap-x-4 tracking-normal'>
+        <h1 className='md:text-6xl font-medium flex md:flex-col text-[40px] gap-y-4'><div className='text-[#00ff87]'>MD</div><div>AFFAN</div><div className='text-[#00ff87]'>ALI</div><div>KHAN</div></h1>
+        <div className='md:w-1/2 w-full tracking-normal text-lg text-[#6b6b6b]'>I build modern, responsive web applications with a focus on clean design and seamless user experiences. Currently learning and building projects with the MERN stack and modern web technologies.</div>
+        <div className='absolute md:right-50 md:bottom-20 sm:bottom-100 sm:right-20 bottom-95 right-10 flex gap-x-4 tracking-normal flex-col md:flex-row'>
           <button className='py-2 px-6 bg-[#00ff87] text-[#080808] transition-transform duration-300 hover:scale-105' onClick={handleProjects}>View Work</button>
           <button className='py-2 px-6 border border-gray-500 text-[#6b6b6b]' onClick={handleContacts}>Get in Touch</button>
         </div>
       </div>
       <div className='bg-gray-600 mt-15 ml-12 w-[90%] h-px'></div>
-      <div className='mt-6 flex justify-around'>
+      <div className='mt-6 flex md:justify-around justify-between'>
         <div className='flex flex-col'><span className='text-4xl font-semibold text-[#00ff87]'>7+</span> <span className='text-lg text-[#6b6b6b]'>Years Experience</span></div>
         <div className='w-px h-15 bg-gray-600'></div>
         <div className='flex flex-col'><span className='text-4xl font-semibold text-[#00ff87]'>40+</span> <span className='text-lg text-[#6b6b6b]'>Projects Shipped</span></div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { GiCheckMark } from "react-icons/gi";
 
 const Contacts = () => {
 
@@ -25,7 +26,8 @@ const Contacts = () => {
         </div>
         </div>
         <div className='w-1/2'>
-        <div className='border border-[#2a2a2a] p-4 flex flex-col text-sm' style={{display: recieve ? "hidden" : "block"}}>
+        <div className='border border-[#2a2a2a] p-4 flex flex-col text-sm'  >
+          <div style={{display: recieve ? "none" : "block"}}>
           <div>
             <div className='text-[#2a2a2a]'>YOUR NAME</div> <input className='outline-none w-full' type="text" placeholder='Jane Smith' />
           </div>
@@ -39,6 +41,11 @@ const Contacts = () => {
           </div>
           <div className='bg-[#2a2a2a] w-full h-px my-4'></div>
           <button className='bg-[#00ff87] p-4 text-black font-semibold w-full' onClick={handleMessageSent}>SEND MESSAGE</button>
+        </div>
+        <div className='h-88 m-auto' style={{display: recieve ? "block" : "none"}}>
+          <div className='text-[#00ff87] text-2xl absolute bottom-82 left-240'><GiCheckMark /></div>
+          <div className='mt-44 text-lg text-[#6b6b6b] relative'>Message received. I'll get back to you soon.</div>
+        </div>
         </div>
         </div>
       </div>

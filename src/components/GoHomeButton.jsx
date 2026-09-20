@@ -11,7 +11,7 @@ const GoHomeButton = () => {
 
   return (
     <div>
-      <button className='fixed right-5 top-25 z-50 border bg-green-500 p-2 text-black rounded-xl hover:text-[1.05rem]' onClick={handleGoBack}>Go To Home</button>
+      <button className='fixed right-5 sm:top-25 top-30 z-50 border bg-green-500 p-2 text-black rounded-xl hover:text-[1.05rem]' onClick={handleGoBack}>Go To Home</button>
     </div>
   )
 }
