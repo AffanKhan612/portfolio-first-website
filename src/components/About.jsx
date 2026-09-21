@@ -9,7 +9,7 @@ const About = () => {
           <span className='text-[#00ff87] text-sm tracking-wider'>00 — ABOUT</span>
           <div className='mt-5'>
             <div className='relative'>
-              <img className='w-2/3 h-85 object-cover border border-[#6b6b6b]' src="/Me.png" alt="" />
+              <img className='md:w-2/3 md:h-85 sm:h-52 sm:w-1/2  h-40 w-2/3 object-cover border border-[#6b6b6b]' src="/Me.png" alt="" />
               <div className='absolute inset-0 backgroundgradient'></div>
             </div>
           </div>

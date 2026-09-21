@@ -10,6 +10,21 @@ const Projects = () => {
       <div className='border border-gray-600 p-8 mt-16 hover:bg-[#ffffff27] hover:text-[#00ff87]'>
         <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>Netflix-UI-Clone</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
       </div>
+      <div className='border border-gray-600 p-8  hover:bg-[#ffffff27] hover:text-[#00ff87]'>
+        <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>Spotify-Clone</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
+      </div>
+      <div className='border border-gray-600 p-8  hover:bg-[#ffffff27] hover:text-[#00ff87]'>
+        <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>X(Twitter)-UI-Clone</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
+      </div>
+      <div className='border border-gray-600 p-8  hover:bg-[#ffffff27] hover:text-[#00ff87]'>
+        <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>ToDoList-App</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
+      </div>
+      <div className='border border-gray-600 p-8  hover:bg-[#ffffff27] hover:text-[#00ff87]'>
+        <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>Swiggy-Clone</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
+      </div>
+      <div className='border border-gray-600 p-8  hover:bg-[#ffffff27] hover:text-[#00ff87]'>
+        <div className='flex justify-around items-center text-[#6b6b6b] hover:font-bold '> <span className='text-sm'>01</span> <span className='text-xl tracking-wider font-medium text-white'>Employee-Admin-DashBoard</span> <span className='text-[#6b6b6b] text-sm font-normal'>2026</span> <MdArrowRightAlt className='' /> </div>
+      </div>
       </div>
       <div className='bg-gray-600 w-full h-px mt-15'></div>
       </div>
